@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'SourceCode';
+  src: URL('../font/SourceCodePro-Black.otf') format('opentype');
+}
+
+body, h1, h2, input {
+	font-family: SourceCode, sans-serif;
+}
+
+input {
+	font-size: 1.2em !important;
+}
+
+.btn-Incorrect {
+	background-color: red;
+}
+
+.btn-Correct {
+	background-color: green;
+}
+
+.numpad { 
+	padding: 5px;
+}
